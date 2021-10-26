@@ -20,26 +20,20 @@ git clone https://github.com/munnep/null_provider.git
 ```
 cd null_provider
 ```
-3. Take a look at the ```main.tf``` file with an editor
-4. Terraform initialize
+3. Terraform initialize
 ```
 terraform init
 ```
-5. Terraform plan
+4. Terraform plan
 ```
 terraform plan
 ```
-6. Terraform apply
+5. Terraform apply
 ```
 terraform apply
 ```
-7. Sample output
+6. Sample output
 ```
 null_resource.patrick: Creating...
 null_resource.patrick: Creation complete after 0s [id=7650730428532570122]
-null_resource.before_patrick: Creating...
-null_resource.before_patrick: Provisioning with 'local-exec'...
-null_resource.before_patrick (local-exec): Executing: ["/bin/sh" "-c" "echo hello world"]
-null_resource.before_patrick (local-exec): hello world
-null_resource.before_patrick: Creation complete after 0s [id=4978335962475804125]
 ```
